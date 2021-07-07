@@ -46,3 +46,8 @@ $ docker-compose exec mysql mysql -usqoop -psqoop
 sql> use testdb1;
 sql> select * from purchase;
 ```
+
+## 수정 가이드
+* 데이터베이스 종류를 늘리고 싶다면 init/init.sql 파일을 수정하면 됩니다
+* 테이블 종류를 늘리고 싶다면 sql/purchase.sql 파일을 수정하면 됩니다
+
